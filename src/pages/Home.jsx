@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="relative overflow-hidden bg-navy text-white">
-        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: 'radial-gradient(circle at 20% 20%, #C9A84C 0, transparent 40%), radial-gradient(circle at 80% 0%, #C9A84C 0, transparent 35%)' }} />
+        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: 'radial-gradient(circle at 20% 20%, #2563EB 0, transparent 40%), radial-gradient(circle at 80% 0%, #2563EB 0, transparent 35%)' }} />
         <div className="container-eppi relative py-20 sm:py-28">
           <p className="eyebrow">AI Strategy Firm · per le imprese italiane</p>
           <h1 className="mt-5 max-w-4xl font-serif text-4xl font-bold leading-[1.1] sm:text-6xl">

@@ -4,8 +4,8 @@
 
 :root {
   --navy: #0D1B2A;
-  --gold: #C9A84C;
-  --cream: #F5F0E8;
+  --gold: #2563EB;
+  --cream: #EEF3FB;
 }
 
 html { scroll-behavior: smooth; }
@@ -20,7 +20,7 @@ body {
 
 @layer components {
   .container-eppi { @apply max-w-content mx-auto px-5 sm:px-8; }
-  .btn-gold { @apply inline-flex items-center justify-center rounded-md bg-gold px-6 py-3 font-semibold text-navy transition hover:brightness-95; }
+  .btn-gold { @apply inline-flex items-center justify-center rounded-md bg-gold px-6 py-3 font-semibold text-white transition hover:brightness-110; }
   .btn-ghost { @apply inline-flex items-center justify-center rounded-md border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10; }
   .btn-outline-navy { @apply inline-flex items-center justify-center rounded-md border border-navy/25 px-6 py-3 font-semibold text-navy transition hover:bg-navy hover:text-white; }
   .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-gold; }

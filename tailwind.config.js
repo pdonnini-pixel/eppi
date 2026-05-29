@@ -5,8 +5,8 @@ export default {
     extend: {
       colors: {
         navy: '#0D1B2A',
-        gold: '#C9A84C',
-        cream: '#F5F0E8',
+        gold: '#2563EB',
+        cream: '#EEF3FB',
         ink: '#0A1420',
       },
       fontFamily: {

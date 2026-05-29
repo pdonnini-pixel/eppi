@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Logo({ light = false }) {
   return (
     <Link to="/" className="flex items-center gap-2.5 group">
-      <span className="flex h-9 w-9 items-center justify-center rounded-md bg-gold font-serif text-xl font-bold text-navy">
+      <span className="flex h-9 w-9 items-center justify-center rounded-md bg-gold font-serif text-xl font-bold text-white">
         e
       </span>
       <span className="leading-none">
