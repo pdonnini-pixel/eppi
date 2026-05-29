@@ -43,12 +43,16 @@ export default function Home() {
       {/* IL BIVIO */}
       <section className="bg-white">
         <div className="container-eppi py-20">
-          <p className="eyebrow">{bivio.eyebrow}</p>
-          <h2 className="mt-3 h-section max-w-3xl">{bivio.title}</h2>
-          <div className="mt-6 max-w-3xl space-y-5">
-            {bivio.body.map((p, i) => (
-              <p key={i} className="text-lg leading-relaxed text-navy/75">{p}</p>
-            ))}
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <p className="eyebrow">{bivio.eyebrow}</p>
+              <h2 className="mt-3 h-section">{bivio.title}</h2>
+            </div>
+            <div className="space-y-5 lg:col-span-2">
+              {bivio.body.map((p, i) => (
+                <p key={i} className="text-lg leading-relaxed text-navy/75">{p}</p>
+              ))}
+            </div>
           </div>
         </div>
       </section>

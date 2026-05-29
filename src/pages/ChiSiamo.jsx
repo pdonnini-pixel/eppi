@@ -25,9 +25,12 @@ export default function ChiSiamo() {
 
       <section className="bg-white">
         <div className="container-eppi py-16 sm:py-20">
-          <p className="eyebrow">La nostra storia</p>
-          <h2 className="mt-3 h-section max-w-2xl">Da imprenditori, a imprenditori.</h2>
-          <div className="mt-6 max-w-3xl space-y-5 text-lg leading-relaxed text-navy/75">
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <p className="eyebrow">La nostra storia</p>
+              <h2 className="mt-3 h-section">Da imprenditori, a imprenditori.</h2>
+            </div>
+            <div className="space-y-5 text-lg leading-relaxed text-navy/75 lg:col-span-2">
             <p>
               A farsi quella domanda per primo è stato <strong className="text-navy">Patrizio Donnini Gallo</strong>,
               che imprenditore lo è sempre stato — in settori diversi, con difficoltà diverse, di
@@ -48,6 +51,7 @@ export default function ChiSiamo() {
               mai il contrario. Aiutiamo le imprese italiane — soprattutto le piccole — a non arrivare
               tardi a capire come l'AI sta cambiando organizzazione e marginalità.
             </p>
+            </div>
           </div>
 
           <div className="mt-14 grid gap-6 sm:grid-cols-2">
