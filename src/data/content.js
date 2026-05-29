@@ -191,27 +191,27 @@ export const CALENDLY_URL = 'https://calendly.com/eppiflorence/30min'
 export const team = [
   {
     img: '/assets/team/pd.jpg',
-    name: 'Patrizio Donnini',
+    name: 'Patrizio Donnini Gallo',
     role: 'Founder & AI Strategist',
-    context: "Traduce le potenzialità dell'AI in strategie concrete per le imprese.",
+    context: "Disegna la strategia AI dell'impresa: dove applicarla, con quale ROI e con quale roadmap.",
   },
   {
     img: '/assets/team/ea.jpg',
     name: 'Elena Arsenio',
     role: 'Marketing & Comunicazione',
-    context: "Dà voce al metodo Eppi: posizionamento, contenuti, relazioni.",
+    context: "Mette l'AI al servizio di contenuti, posizionamento e relazioni: più output, stessa voce umana.",
   },
   {
     img: '/assets/team/lm.jpg',
     name: 'Lilian Mammoliti',
     role: 'Finance & Amministrazione',
-    context: "Tiene i conti in ordine e ogni progetto sostenibile nel tempo.",
+    context: "Porta l'AI nei numeri: reportistica, controllo di gestione e previsioni più rapide e affidabili.",
   },
   {
     img: '/assets/team/cs.jpg',
     name: 'Claudia Scopino',
     role: 'Head of Execution',
-    context: "Trasforma la strategia in risultati: tempi, qualità, consegna.",
+    context: "Trasforma la strategia AI in produzione: pilot, automazioni e risultati misurati sul campo.",
   },
 ]
 
