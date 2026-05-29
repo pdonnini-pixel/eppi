@@ -187,3 +187,36 @@ export const values = [
 ]
 
 export const CALENDLY_URL = 'https://calendly.com/eppiflorence/30min'
+
+export const team = [
+  {
+    img: '/assets/team/pd.jpg',
+    name: 'Patrizio Donnini',
+    role: 'Founder & AI Strategist',
+    context: "Traduce le potenzialità dell'AI in strategie concrete per le imprese.",
+  },
+  {
+    img: '/assets/team/ea.jpg',
+    name: 'Elena Arsenio',
+    role: 'Marketing & Comunicazione',
+    context: "Dà voce al metodo Eppi: posizionamento, contenuti, relazioni.",
+  },
+  {
+    img: '/assets/team/lm.jpg',
+    name: 'Lilian Mammoliti',
+    role: 'Finance & Amministrazione',
+    context: "Tiene i conti in ordine e ogni progetto sostenibile nel tempo.",
+  },
+  {
+    img: '/assets/team/cs.jpg',
+    name: 'Claudia Scopino',
+    role: 'Head of Execution',
+    context: "Trasforma la strategia in risultati: tempi, qualità, consegna.",
+  },
+]
+
+export const copilots = [
+  { mark: 'C', name: 'Claude', context: 'Ragionamento e scrittura' },
+  { mark: 'G', name: 'ChatGPT', context: 'Analisi e produttività' },
+  { mark: '✦', name: 'Gemini', context: 'Ricerca e multimodale' },
+]
