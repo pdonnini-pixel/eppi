@@ -100,16 +100,28 @@ export default function ChiSiamo() {
       {/* I COPILOTI AI */}
       <section className="bg-white">
         <div className="container-eppi py-16 sm:py-20">
-          <p className="eyebrow">E i nostri copiloti</p>
-          <h2 className="mt-3 h-section max-w-2xl">I copiloti AI</h2>
-          <p className="mt-4 max-w-3xl leading-relaxed text-navy/75">
-            Claude, ChatGPT, Gemini & co. Non sostituiscono il team: gli fanno guadagnare ore.
-            Noi ci mettiamo la testa e la responsabilità, loro la potenza di calcolo.
-          </p>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <p className="eyebrow">E i nostri copiloti</p>
+              <h2 className="mt-3 h-section">I copiloti AI</h2>
+            </div>
+            <div className="lg:col-span-2">
+              <p className="text-lg leading-relaxed text-navy/75">
+                Usiamo ogni giorno i migliori modelli sul mercato, ognuno per cio che sa fare meglio.{' '}
+                <strong className="text-navy">Non sostituiscono il team: gli fanno guadagnare ore.</strong>{' '}
+                Noi ci mettiamo la testa, l'esperienza e la responsabilita; loro la potenza di calcolo.
+                Tu ottieni il risultato — quale strumento usare e un problema nostro.
+              </p>
+            </div>
+          </div>
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {copilots.map((c) => (
-              <div key={c.name} className="flex items-center gap-4 rounded-xl border border-navy/10 bg-cream/60 p-6">
-                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl font-serif text-2xl font-bold text-white" style={{ backgroundColor: c.color }}>
+              <div
+                key={c.name}
+                className="group flex items-center gap-4 rounded-xl border border-navy/10 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+                style={{ borderTop: `3px solid ${c.color}` }}
+              >
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl font-serif text-2xl font-bold text-white shadow-sm" style={{ backgroundColor: c.color }}>
                   {c.mark}
                 </span>
                 <div>
