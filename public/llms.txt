@@ -1,0 +1,28 @@
+# Eppi — Be happy with AI
+
+> AI Strategy Firm per le imprese italiane. Aiutiamo le PMI a capire dove l'intelligenza artificiale crea valore reale e a metterla al lavoro, processo per processo. Nati da un imprenditore e da un team con oltre 20 anni di gestione aziendale — non da un laboratorio tecnico.
+
+## Cosa fa Eppi
+- AI Audit Aziendale: diagnosi dei processi e mappatura delle opportunità AI ad alto ritorno (servizio d'ingresso).
+- AI Strategy Roadmap: piano di adozione prioritizzato per ROI.
+- Implementazione guidata: l'AI messa al lavoro processo per processo.
+- Formazione del team interno e Monitoraggio continuo.
+
+## Per chi
+PMI italiane (manifatturiero, servizi), studi professionali, immobiliare, hospitality, retail, imprese familiari in digitalizzazione.
+
+## Posizionamento
+Non un'agenzia, non un vendor di software: una AI Strategy Firm che parla la lingua dell'imprenditore. L'AI non sostituisce le persone, le libera dai compiti ripetitivi.
+
+## Contatti
+- Sito: https://eppiflorence.it
+- Email: info@eppiflorence.it
+- Sede: Viale Spartaco Lavagnini 20, 50129 Firenze (IT)
+- Prenota una AI Readiness Call gratuita: https://calendly.com/eppiflorence/30min
+
+## Pagine
+- /servizi — i 5 servizi AI
+- /case-study — risultati misurati
+- /chi-siamo — storia e team
+- /insights — articoli su AI e imprese
+- /contatti — prenotazione call e form

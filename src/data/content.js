@@ -223,3 +223,55 @@ export const copilots = [
   { mark: 'P',  name: 'Perplexity',     context: 'Ricerca con fonti citate',         color: '#14B8C6' },
   { mark: '⌘',  name: 'GitHub Copilot', context: 'Codice e automazioni',             color: '#111827' },
 ]
+
+export const bivio = {
+  eyebrow: 'Il momento è adesso',
+  title: "L'AI sta cambiando i margini. Tu li stai guardando?",
+  body: [
+    "Oggi all'AI ci si avvicina in due modi. C'è chi la prova per curiosità: scarica un'app, fa qualche domanda, si stupisce e poi torna a lavorare esattamente come prima. E c'è chi la usa per cambiare il modo in cui l'azienda funziona davvero — meno tempo perso, costi più bassi, decisioni più rapide.",
+    "La differenza non la fa la tecnologia: quella è la stessa per tutti. La fa capire dove conviene applicarla, su quali processi, con quale ritorno. È qui che la piccola impresa rischia di arrivare tardi — e quando arrivi tardi sul margine, recuperare costa il doppio.",
+    "Eppi nasce per evitartelo: ti facciamo capire, prima degli altri, dove l'AI sposta i tuoi numeri — e poi la mettiamo al lavoro, un processo alla volta.",
+  ],
+}
+
+export const aiExamples = [
+  {
+    title: 'Un gestionale che ragiona con te e per te',
+    text: "Commerciale, ordini, magazzino, scadenze e registrazione documenti in un unico sistema. L'AI mette in fila le priorità, segnala gli errori prima che diventino costi e tiene una sola versione dei dati. Reparti allineati, decisioni più rapide, meno ore perse a rincorrere informazioni sparse.",
+  },
+  {
+    title: 'Il back-office che si gestisce (quasi) da solo',
+    text: "Registrazione documenti, inserimento dati, pratiche ripetitive: lavoro che prima occupava persone intere, oggi gestito da un'AI che capisce il contesto e non sbaglia per distrazione. Le stesse cose, con molte meno mani — e fatte meglio. Non un'automazione fredda: un assistente che lavora come lavoreresti tu.",
+  },
+  {
+    title: 'Risposte e bozze già pronte',
+    text: "L'AI accede alla conoscenza della tua azienda, prepara le bozze e ti propone le risposte migliori — a clienti, fornitori, richieste ricorrenti. Tu correggi e firmi. Risultato: meno manodopera per ogni messaggio, tempi di risposta che crollano, più velocità e semplicità di pensiero per chi deve decidere.",
+  },
+]
+
+export const faqs = [
+  {
+    q: "Cos'è un AI Strategist e perché serve alla mia impresa?",
+    a: "Un AI Strategist non è un tecnico che addestra algoritmi: è la figura che traduce le potenzialità e i limiti dell'AI in opportunità di business concrete. Mappa i processi dove l'AI crea valore, quantifica il ritorno prima di spendere e definisce le priorità. Per una PMI è ciò che evita di investire in tecnologia che non serve.",
+  },
+  {
+    q: "Come capisco se la mia azienda è pronta per l'AI?",
+    a: "Bastano tre domande oneste: quale problema specifico vuoi risolvere, hai i dati per farlo (quantità, qualità, accessibilità) e chi è il responsabile interno del risultato. Se una risposta manca, il progetto AI aspetta — e spesso il primo vero lavoro è mettere ordine nei processi e nei dati.",
+  },
+  {
+    q: "Quanto costa iniziare con Eppi?",
+    a: "Si parte da una AI Readiness Call gratuita di 30 minuti e, se ha senso, da un AI Audit a basso impegno che individua le 3-5 opportunità a più alto ritorno. Si cresce solo dove il valore è misurabile: nessun progetto faraonico, un processo alla volta.",
+  },
+  {
+    q: "L'AI sostituirà le persone della mia azienda?",
+    a: "No. Nelle imprese che seguiamo l'AI libera le persone dai compiti ripetitivi e le restituisce al lavoro che conta — relazioni, trattative, decisioni. Le stesse cose con meno mani, ma con un'AI che ragiona con te, non fredda.",
+  },
+  {
+    q: "Eppi è un'agenzia o un fornitore di software?",
+    a: "Nessuno dei due. Eppi è una AI Strategy Firm: la solidità della consulenza di management classica unita a competenze AI reali e strumenti proprietari. Nasce da un imprenditore e da persone con oltre 20 anni di gestione aziendale — ti parliamo da imprenditori a imprenditori.",
+  },
+  {
+    q: "Lavorate con le piccole imprese italiane?",
+    a: "Sì, sono il nostro focus. PMI manifatturiere e di servizi, studi professionali, immobiliare, hospitality, retail e imprese familiari in digitalizzazione. Non serve essere una multinazionale per usare l'AI bene.",
+  },
+]

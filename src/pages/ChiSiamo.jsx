@@ -6,34 +6,49 @@ export default function ChiSiamo() {
   return (
     <>
       <Seo
-        title="Chi siamo — la AI Strategy Firm italiana | Eppi"
-        description="Eppi unisce la solidità della consulenza di management a competenze AI strategist reali. Non una software house travestita da consulente."
+        title="Chi siamo — nati in azienda, non in laboratorio | Eppi"
+        description="Eppi nasce da un imprenditore e da un team con oltre 20 anni di gestione aziendale. Parliamo di AI da imprenditori a imprenditori, con la tecnologia al servizio dei margini."
       />
       <section className="bg-navy text-white">
         <div className="container-eppi py-16 sm:py-20">
           <p className="eyebrow">Chi siamo</p>
           <h1 className="mt-3 max-w-3xl font-serif text-4xl font-bold leading-tight sm:text-5xl">
-            Una boutique di consulenza con una marcia in più.
+            Nati in azienda, non in un laboratorio.
           </h1>
           <p className="mt-6 max-w-2xl leading-relaxed text-cream/85">
-            Eppi nasce dall'esperienza di professionisti con background in strategy consulting,
-            management e innovazione tecnologica. Non siamo una software house travestita da
-            consulente, né un consulente tradizionale che ha messo "AI" nel logo. Siamo una realtà
-            ibrida autentica: la solidità della consulenza classica, amplificata da strumenti
-            proprietari e competenze AI strategist reali.
+            Eppi non nasce dall'entusiasmo per l'ultima tecnologia. Nasce da una domanda che si fa
+            ogni imprenditore davanti all'AI: <em>"questa cosa qui mi serve davvero, o sto solo
+            correndo dietro alla moda?"</em>
           </p>
         </div>
       </section>
 
       <section className="bg-white">
         <div className="container-eppi py-16 sm:py-20">
-          <h2 className="h-section">Perché esistiamo</h2>
-          <p className="mt-4 max-w-3xl leading-relaxed text-navy/75">
-            Troppe imprese italiane sentono la pressione dell'AI ma non sanno da dove partire — o
-            hanno avviato qualcosa senza una strategia chiara. Eppi esiste per dare loro un punto di
-            riferimento concreto: partiamo dai processi reali, troviamo dove l'AI crea economia ed
-            efficienza, e la mettiamo al lavoro. Un processo migliorato oggi è competitività domani.
-          </p>
+          <p className="eyebrow">La nostra storia</p>
+          <h2 className="mt-3 h-section max-w-2xl">Da imprenditori, a imprenditori.</h2>
+          <div className="mt-6 max-w-3xl space-y-5 text-lg leading-relaxed text-navy/75">
+            <p>
+              A farsi quella domanda per primo è stato <strong className="text-navy">Patrizio Donnini Gallo</strong>,
+              che imprenditore lo è sempre stato — in settori diversi, con difficoltà diverse, di
+              quelle che capisci solo quando i conti li firmi tu. Da lì l'intuizione: l'AI non è un
+              tema da tecnici, è un tema di <strong className="text-navy">modello di business</strong>.
+              E come ogni cambio di modello, premia chi lo capisce per primo e penalizza chi arriva tardi.
+            </p>
+            <p>
+              Per questo Patrizio si è circondato non di smanettoni, ma di persone con
+              <strong className="text-navy"> oltre 20 anni di gestione aziendale</strong> alle spalle:
+              marketing, finanza, operations. Gente che i problemi delle imprese li ha già risolti —
+              anche senza AI — e che oggi usa l'AI per risolverli meglio, più in fretta, con margini
+              migliori.
+            </p>
+            <p>
+              È questa la differenza: <strong className="text-navy">ti parliamo da imprenditori a
+              imprenditori</strong>, con la tecnologia al servizio del numero in fondo alla pagina,
+              mai il contrario. Aiutiamo le imprese italiane — soprattutto le piccole — a non arrivare
+              tardi a capire come l'AI sta cambiando organizzazione e marginalità.
+            </p>
+          </div>
 
           <div className="mt-14 grid gap-6 sm:grid-cols-2">
             {values.map((v) => (
@@ -61,17 +76,12 @@ export default function ChiSiamo() {
           <p className="eyebrow">Il team</p>
           <h2 className="mt-3 h-section max-w-2xl">Le persone dietro Eppi.</h2>
           <p className="mt-4 max-w-2xl text-navy/70">
-            Volti reali, competenze concrete. È a loro che metti la sfida della tua impresa.
+            Volti reali, competenze concrete, oltre 20 anni di azienda. È a loro che affidi la sfida della tua impresa.
           </p>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {team.map((m) => (
               <div key={m.name} className="overflow-hidden rounded-xl border border-navy/10 bg-white">
-                <img
-                  src={m.img}
-                  alt={`${m.name} — ${m.role}`}
-                  className="aspect-square w-full object-cover"
-                  loading="lazy"
-                />
+                <img src={m.img} alt={`${m.name} — ${m.role}`} className="aspect-square w-full object-cover" loading="lazy" />
                 <div className="p-5">
                   <h3 className="font-serif text-lg font-bold text-navy">{m.name}</h3>
                   <p className="text-xs font-semibold uppercase tracking-widest text-gold">{m.role}</p>
