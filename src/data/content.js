@@ -216,7 +216,10 @@ export const team = [
 ]
 
 export const copilots = [
-  { mark: 'C', name: 'Claude', context: 'Ragionamento e scrittura' },
-  { mark: 'G', name: 'ChatGPT', context: 'Analisi e produttività' },
-  { mark: '✦', name: 'Gemini', context: 'Ricerca e multimodale' },
+  { mark: 'C',  name: 'Claude',         context: 'Ragionamento e scrittura lunga', color: '#D97757' },
+  { mark: 'G',  name: 'ChatGPT',        context: 'Analisi, sintesi e produttività', color: '#10A37F' },
+  { mark: '✦',  name: 'Gemini',         context: 'Ricerca multimodale e dati',       color: '#4285F4' },
+  { mark: 'M',  name: 'Midjourney',     context: 'Immagini e creatività visiva',     color: '#7C3AED' },
+  { mark: 'P',  name: 'Perplexity',     context: 'Ricerca con fonti citate',         color: '#14B8C6' },
+  { mark: '⌘',  name: 'GitHub Copilot', context: 'Codice e automazioni',             color: '#111827' },
 ]

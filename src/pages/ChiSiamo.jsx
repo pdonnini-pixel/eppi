@@ -92,10 +92,10 @@ export default function ChiSiamo() {
             Claude, ChatGPT, Gemini & co. Non sostituiscono il team: gli fanno guadagnare ore.
             Noi ci mettiamo la testa e la responsabilità, loro la potenza di calcolo.
           </p>
-          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {copilots.map((c) => (
               <div key={c.name} className="flex items-center gap-4 rounded-xl border border-navy/10 bg-cream/60 p-6">
-                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gold font-serif text-2xl font-bold text-white">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl font-serif text-2xl font-bold text-white" style={{ backgroundColor: c.color }}>
                   {c.mark}
                 </span>
                 <div>
