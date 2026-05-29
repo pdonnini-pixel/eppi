@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Seo from '../components/Seo.jsx'
+import { CALENDLY_URL } from '../data/content.js'
 
 function encode(data) {
   return Object.keys(data)
@@ -39,18 +40,46 @@ export default function Contatti() {
             Raccontaci la sfida della tua impresa.
           </h1>
           <p className="mt-5 max-w-2xl text-cream/80">
-            Prima call gratuita di 30 minuti, senza impegno. Valutiamo insieme se e come l'AI può
-            creare valore per la tua azienda.
+            Prima call gratuita di 30 minuti, senza impegno. Scegli direttamente un orario qui sotto,
+            oppure scrivici e ti ricontattiamo noi.
           </p>
         </div>
       </section>
 
+      {/* PRENOTAZIONE DIRETTA — CALENDLY */}
+      <section className="bg-white">
+        <div className="container-eppi pt-16 sm:pt-20">
+          <p className="eyebrow">Prenota in un minuto</p>
+          <h2 className="mt-3 font-serif text-2xl font-bold text-navy sm:text-3xl">
+            Scegli un orario per la tua AI Readiness Call
+          </h2>
+          <div className="mt-8 overflow-hidden rounded-xl border border-navy/10">
+            <iframe
+              title="Prenota una call con Eppi"
+              src={`${CALENDLY_URL}?hide_gdpr_banner=1&background_color=ffffff&primary_color=c9a84c`}
+              className="w-full"
+              style={{ height: '720px', border: '0' }}
+            />
+          </div>
+          <noscript>
+            <p className="mt-4 text-navy/70">
+              Per prenotare apri:{' '}
+              <a className="text-gold underline" href={CALENDLY_URL}>{CALENDLY_URL}</a>
+            </p>
+          </noscript>
+        </div>
+      </section>
+
+      {/* ALTERNATIVA — FORM */}
       <section className="bg-white">
         <div className="container-eppi grid gap-12 py-16 sm:py-20 md:grid-cols-2">
           <div>
+            <p className="eyebrow">Preferisci scrivere?</p>
+            <h2 className="mt-3 font-serif text-2xl font-bold text-navy">Raccontaci la tua sfida</h2>
+            <p className="mt-3 text-navy/70">Ti ricontattiamo noi entro un giorno lavorativo.</p>
             {sent ? (
-              <div className="rounded-xl border border-gold bg-cream/60 p-8">
-                <h2 className="font-serif text-2xl font-bold text-navy">Grazie!</h2>
+              <div className="mt-6 rounded-xl border border-gold bg-cream/60 p-8">
+                <h3 className="font-serif text-2xl font-bold text-navy">Grazie!</h3>
                 <p className="mt-3 text-navy/75">
                   Abbiamo ricevuto la tua richiesta. Ti rispondiamo entro un giorno lavorativo per
                   fissare la tua AI Readiness Call.
@@ -63,7 +92,7 @@ export default function Contatti() {
                 data-netlify="true"
                 netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
-                className="space-y-5"
+                className="mt-6 space-y-5"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <p className="hidden">
@@ -82,13 +111,13 @@ export default function Contatti() {
                     className="mt-2 w-full rounded-md border border-navy/20 px-4 py-3 outline-none focus:border-gold"
                   />
                 </div>
-                <button type="submit" className="btn-gold w-full sm:w-auto">Prenota la call gratuita</button>
+                <button type="submit" className="btn-gold w-full sm:w-auto">Invia la richiesta</button>
                 {error && <p className="text-sm text-red-600">Si è verificato un errore. Scrivici a info@eppiflorence.it.</p>}
               </form>
             )}
           </div>
 
-          <div className="rounded-xl bg-cream/60 p-8">
+          <div className="rounded-xl bg-cream/60 p-8 self-start">
             <h2 className="font-serif text-xl font-bold text-navy">Oppure scrivici direttamente</h2>
             <ul className="mt-5 space-y-3 text-navy/80">
               <li><span className="font-semibold text-gold">Email:</span> <a className="hover:underline" href="mailto:info@eppiflorence.it">info@eppiflorence.it</a></li>

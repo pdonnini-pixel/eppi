@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Logo from './Logo.jsx'
+import { CALENDLY_URL } from '../data/content.js'
 
 const links = [
   { to: '/servizi', label: 'Servizi' },
@@ -27,9 +28,9 @@ export default function Navbar() {
               {l.label}
             </NavLink>
           ))}
-          <Link to="/contatti" className="btn-gold !px-5 !py-2 text-sm">
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-gold !px-5 !py-2 text-sm">
             Prenota una call
-          </Link>
+          </a>
         </div>
         <button
           className="md:hidden p-2 text-navy"
@@ -56,9 +57,9 @@ export default function Navbar() {
                 {l.label}
               </NavLink>
             ))}
-            <Link to="/contatti" onClick={() => setOpen(false)} className="btn-gold mt-2 text-sm">
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="btn-gold mt-2 text-sm">
               Prenota una call
-            </Link>
+            </a>
           </div>
         </div>
       )}

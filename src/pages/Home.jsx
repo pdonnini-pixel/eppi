@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import Seo from '../components/Seo.jsx'
 import CTA from '../components/CTA.jsx'
-import { numbers, steps, services, sectors } from '../data/content.js'
+import { numbers, steps, services, sectors, CALENDLY_URL } from '../data/content.js'
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
             reale — e poi la mettiamo al lavoro, processo per processo.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
-            <Link to="/contatti" className="btn-gold">Prenota la tua AI Readiness Call — gratuita</Link>
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-gold">Prenota la tua AI Readiness Call — gratuita</a>
             <Link to="/servizi" className="btn-ghost">I nostri servizi</Link>
           </div>
 

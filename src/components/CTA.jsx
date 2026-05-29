@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { CALENDLY_URL } from '../data/content.js'
 
 export default function CTA() {
   return (
@@ -13,10 +14,13 @@ export default function CTA() {
           valore reale nella tua azienda — e da quale processo conviene partire.
         </p>
         <div className="mt-8">
-          <Link to="/contatti" className="btn-gold">
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn-gold">
             Prenota la call gratuita
-          </Link>
+          </a>
         </div>
+        <p className="mt-4 text-sm text-cream/60">
+          Preferisci scrivere prima? <Link to="/contatti" className="text-gold underline">Contattaci</Link>
+        </p>
       </div>
     </section>
   )

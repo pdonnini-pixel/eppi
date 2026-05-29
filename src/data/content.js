@@ -185,3 +185,5 @@ export const values = [
   { title: 'Pragmatismo', text: 'Soluzioni applicabili, non teorie. Il cliente deve poter eseguire.' },
   { title: 'Accessibilità', text: "Linguaggio chiaro, mai tecnicismi inutili. L'AI spiegata in modo che il management decida." },
 ]
+
+export const CALENDLY_URL = 'https://calendly.com/eppiflorence/30min'
