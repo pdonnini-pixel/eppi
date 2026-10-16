@@ -17,4 +17,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://www.eppiflorence.it/sitemap.xml
+Sitemap: https://eppiflorence.it/sitemap.xml
